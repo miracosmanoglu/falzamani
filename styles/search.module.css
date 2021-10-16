@@ -1,0 +1,69 @@
+.kariyerhdr {
+  width: 100%;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(to right, #402759, #2a1b40, #160f26);
+}
+.kariyerhdr h4 {
+  color: #fff;
+  font-size: 20px;
+  margin: 30px;
+  padding: 10px;
+  width: 60%;
+  border-bottom: 1px solid #fff;
+}
+.searchmain {
+  background: linear-gradient(#1e1435, #221737, #281c3b);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 72px;
+  border-radius: 50px;
+}
+.searchmain h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+.searchmain h5 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  margin: 20px;
+  padding: 7px 15px;
+  background-color: #402759;
+  border-radius: 20px;
+  text-decoration: underline;
+}
+.searchfilter {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 3px 20px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin: 3px 0;
+  width: 100%;
+}
+.searchlist li {
+  margin: 5px;
+}
+@media screen and (max-width: 960px) {
+  .kariyerhdr h4 {
+    font-size: 14px;
+  }
+  .searchfilter {
+    font-size: 14px;
+  }
+}

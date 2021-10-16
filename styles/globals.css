@@ -1,0 +1,232 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #0f0b27 !important;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.uzmanMain {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.uzmanDetay {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.wrapperClass {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.falturleri {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.burclar {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.burcdetay {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.blog {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.blogdetay {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.kredial {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.kariyer {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.bizeulasin {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.uyegiris {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.adminpage {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.adminblog {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.adminkredi {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.fpassword {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.danisman {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.WarlockPage {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.loading {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.search {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+
+.ChangePassword {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.odeme {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.userpage {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.kayit {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.adminlogin {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.OdemeAlMain {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 25px;
+  margin: auto;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swipercards {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.swipercards .swiper-slide {
+  display: flex;
+  width: fit-content;
+}
+.zodiacswp {
+  width: 100%;
+  padding: 0 30px !important;
+}
+.swpalt {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 370px;
+  padding: 0 30px !important;
+}
+.zodiacswp .swiper-slide {
+  margin: auto;
+  display: flex;
+  width: fit-content;
+}
+@media screen and (max-width: 420px) {
+  .zodiacswp .swiper-slide {
+    width: max-content;
+    margin: 0 -15px;
+  }
+}
+.swpalt .swiper-slide {
+  margin: auto;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  filter: drop-shadow(0 0 5px black);
+}

@@ -1,0 +1,316 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.backImage {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.status {
+  margin: 5px;
+  padding: 2px 5px;
+  color: burlywood;
+  text-transform: uppercase;
+  border: 1px solid burlywood;
+  border-radius: 15px;
+  font-size: 12px;
+}
+.bnrhdr {
+  /* width: 70%; */
+  /* height: 60%; */
+  padding: 80px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 50px;
+  color: #fff;
+  z-index: 1;
+}
+.bnrhdr h4 {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0 30px;
+}
+.bnrhdr span {
+  font-weight: bold;
+}
+.bnrhdr p {
+  font-size: 20px;
+}
+.bnrgiris {
+  width: 148px;
+  height: 54px;
+  background-color: #1cd42e9a;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 34px;
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+.bnrgiris:hover {
+  background-color: #1cd42e;
+  transition: 0.3s;
+}
+.snm {
+  margin-top: 72px;
+  padding: 50px;
+  background: linear-gradient(#1e1435, #221737, #281c3b);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.snmhdr h3 {
+  font-size: 22px;
+}
+.snmlist ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.snmlist li {
+  padding: 30px;
+  border-right: 1px solid #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+}
+.snmlist h6 {
+  font-size: 20px;
+  margin: 0;
+}
+.snmlist p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+.snmlist ul :last-child {
+  border: none;
+}
+
+.card {
+  width: 250px;
+  height: 404px;
+  background-color: #281c3b;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.card h5 {
+  font-size: 24px;
+  color: #ecdcf5;
+  margin: 0;
+}
+.card p {
+  font-size: 18px;
+  color: #fff;
+  padding: 0 15px;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.cardimg {
+  position: relative;
+}
+.crdi {
+  display: flex;
+  justify-content: space-between;
+}
+.cardicon {
+  padding: 10px 20px;
+}
+.cardgiris {
+  width: 148px;
+  height: 54px;
+  background-color: #1cd42e9a;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 34px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+.cardgiris:hover {
+  background-color: #1cd42e;
+  transition: 0.3s;
+}
+
+.zodiac {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 72px;
+  background: linear-gradient(#1e1435, #221737, #281c3b);
+}
+.zodiacswp {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.zdcmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  justify-content: center;
+  text-align: center;
+  transition: 0.3s;
+}
+.zdcmain:hover {
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+.bottomSlider {
+  width: 100%;
+  height: unset !important;
+}
+.zodiachdr {
+  margin: 10px;
+}
+.zodiachdr h3 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 10px;
+  margin: 10px;
+}
+
+.zdcimg {
+  position: relative;
+  top: 0;
+  z-index: 2;
+}
+.zdcrd {
+  background-color: #ecdcf5;
+  width: 234px;
+  height: 120px;
+  border-radius: 40px;
+  position: relative;
+  top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.zdcrd a {
+  font-size: 20px;
+  color: #140731;
+  padding: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .bnrhdr h4 {
+    font-size: 20px;
+    padding: 0;
+  }
+  .bnrhdr p {
+    font-size: 14px;
+  }
+  .bnrgiris {
+    width: 124px;
+    height: 44px;
+
+    font-size: 14px;
+  }
+
+  .snmlist h6 {
+    font-size: 14px;
+  }
+  .snmlist p {
+    font-size: 12px;
+  }
+  .card {
+    width: 260px;
+    height: 454px;
+  }
+  .card h5 {
+    font-size: 18px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .cardgiris {
+    font-size: 14px;
+    width: 128px;
+    height: 44px;
+  }
+  .zodiachdr h3 {
+    text-align: center;
+  }
+
+  .zdcrd {
+    border-radius: 34px;
+    width: 214px;
+    height: 90px;
+  }
+  .zdcrd a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .snmlist h6 {
+    font-size: 16px;
+  }
+  .snmlist p {
+    font-size: 12px;
+  }
+  .bnrhdr {
+    padding: 20px 20px;
+    width: 90%;
+    margin: 0;
+    border-radius: 10px;
+  }
+  .banner {
+    height: 500px;
+  }
+  .bnrgiris {
+    margin-bottom: 0;
+  }
+  .snmhdr h3 {
+    font-size: 16px;
+  }
+  .snmlist ul {
+    flex-direction: column;
+  }
+  .snmlist li {
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    padding: 5px 0;
+    margin: 5px 0;
+    width: 100%;
+  }
+}

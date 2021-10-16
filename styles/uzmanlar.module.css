@@ -1,0 +1,129 @@
+.uzmanhdr {
+  width: 100%;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(to right, #402759, #2a1b40, #160f26);
+}
+.uzmanhdr h4 {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 30px;
+  padding: 10px;
+  width: 60%;
+  border-bottom: 1px solid #fff;
+}
+.uzmanhdr p {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 30px;
+  padding: 20px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-top: 20px;
+  height: 40px;
+  width: 250px;
+  background-color: #ecdcf5;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+.srchi {
+  margin: 0 10px;
+}
+
+.cardMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 70px 0;
+}
+.card {
+  width: 250px;
+  height: 404px;
+  background-color: #281c3b;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 15px 15px;
+}
+.card h5 {
+  font-size: 20px;
+  color: #ecdcf5;
+  margin: 0;
+}
+.card p {
+  font-size: 16px;
+  color: #fff;
+  padding: 0 10px;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.cardimg {
+  position: relative;
+  padding: 5px;
+}
+.crdi {
+  display: flex;
+  justify-content: space-between;
+}
+.cardicon {
+  margin: 10px 20px;
+  cursor: pointer;
+}
+.cardgiris {
+  padding: 5px 20px;
+  margin-bottom: 15px;
+  background-color: #1cd42e9a;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 34px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.cardgiris:hover {
+  background-color: #1cd42e;
+  transition: 0.3s;
+}
+.status {
+  margin: 5px;
+  padding: 2px 5px;
+  color: burlywood;
+  text-transform: uppercase;
+  border: 1px solid burlywood;
+  border-radius: 15px;
+  font-size: 12px;
+}
+@media screen and (max-width: 960px) {
+  .card {
+    height: 370px;
+  }
+  .card h5 {
+    font-size: 16px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .cardgiris {
+    font-size: 14px;
+  }
+  .uzmanhdr h4 {
+    font-size: 16px;
+  }
+  .uzmanhdr p {
+    font-size: 12px;
+  }
+}
